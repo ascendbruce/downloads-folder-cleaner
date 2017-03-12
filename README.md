@@ -20,13 +20,13 @@ We will walk through the detail later if you don't know how to install.
 
 ## How it works
 
-* It moves old files into Trash once a day. (old file: added into Downloads folder more than 24 hours ago)
-* Still work with slept macs. It will run right after waking up.
-* The only thing you need to do is to move useful files to a safe place soon after downloaded. The rest will be deleted within 24~48 hours automatically. (You can restore them from trash bin though)
+* It moves old files into Trash once a day. (Old files refer to those added into Downloads folder more than 24 hours ago)
+* Still works with Macs that are in sleep mode. It will run right after waking up.
+* The only thing you need to do is to move useful files to a safe place after download. The rest will be deleted within 24~48 hours automatically. (You can restore them from trash bin though)
 
 ## Install
 
-We recommend you to do a (last) spring cleaning before installing. Otherwise all old downloads will just be thrown into trash regardlessly.
+We recommend you to do a (last) spring cleaning before installing. Otherwise all old downloads will be moved to trash regardlessly.
 
 ### One-line Installer
 
