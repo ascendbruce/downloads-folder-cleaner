@@ -19,5 +19,5 @@ echo $SCRIPT_PATH
 echo $PLIST_FILE
 sed -i '' "s#SCRIPT_PATH#$SCRIPT_PATH#" $PLIST_FILE
 
-launchctl unload $PLIST_FILE
+launchctl unload $PLIST_FILE > /dev/null 2>&1
 launchctl load -w $PLIST_FILE
