@@ -14,7 +14,7 @@ on run argv
   end if
 
   set downloadFolder to quoted form of (POSIX path of (path to downloads folder))
-  set mdfindQuery to "mdfind -onlyin " & downloadFolder & " 'kMDItemDateAdded<$time.now(-" & deleteIfOrderThan & ")'"
+  set mdfindQuery to "mdfind -onlyin " & downloadFolder & " 'kMDItemDateAdded<$time.now(-" & deleteIfOrderThan & ")' | grep " & downloadFolder
 
   log "Query command: " & mdfindQuery & "\n"
   set filteredFiles to do shell script mdfindQuery
